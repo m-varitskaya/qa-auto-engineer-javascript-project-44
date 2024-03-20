@@ -6,3 +6,6 @@ brain-games: # запуск приветствия
 
 publish: # аргумент чтобы не засорять общее хранилище учебными пакетами
 	npm publish --dry-run
+
+lint:
+	npx eslint
