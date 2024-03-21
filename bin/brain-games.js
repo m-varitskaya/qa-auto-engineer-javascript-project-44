@@ -1,9 +1,5 @@
 #!/usr/bin/env node
-import showGreeting from '../src/cli.js';
+import playGame from "../src";
 
-function startG() {
-    console.log('Welcome to the Brain Games!');
-showGreeting();
-} 
-
-export default startG;
+playGame();
+//export default startG;
