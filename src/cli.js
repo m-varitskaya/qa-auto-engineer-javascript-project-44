@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-var name;
+let name;
 function showGreeting() {
   console.log('May I have your name?');
   name = readlineSync.question('Your answer: ');
@@ -8,4 +8,3 @@ function showGreeting() {
 }
 
 export default showGreeting;
-export var name;
