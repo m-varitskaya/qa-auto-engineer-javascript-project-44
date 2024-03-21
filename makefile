@@ -18,3 +18,6 @@ brain-calc: # игра калькулятор
 
 brain-gcd: # игра с нахождением нод
 	node bin/brain-gcd.js	
+
+brain-progression: #игра с пропущенным числом в последовательности
+	node bin/brain-progression.js	
