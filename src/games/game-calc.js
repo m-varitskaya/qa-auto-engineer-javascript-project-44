@@ -27,8 +27,8 @@ const getQuestionAndAnswer = () => {
   return [question, String(answer)];
 };
 
-const initGameCalc = () => {
+const playGameCalc = () => {
   playGame(rule, getQuestionAndAnswer);
 };
 
-export default initGameCalc;
+export default playGameCalc;
