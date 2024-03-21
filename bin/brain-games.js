@@ -2,4 +2,3 @@
 import playGame from "../src/index.js";
 
 playGame();
-//export default startG;
