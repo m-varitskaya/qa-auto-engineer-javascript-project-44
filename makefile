@@ -12,3 +12,6 @@ lint:
 
 brain-even: # игра "проверка на четность"
 	node bin/brain-even.js
+
+brain-calc: # игра калькулятор
+	node bin/brain-calc.js
