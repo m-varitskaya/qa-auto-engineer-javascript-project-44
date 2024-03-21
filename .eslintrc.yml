@@ -7,7 +7,5 @@ parserOptions:
   sourceType: module
 rules: {
   "no-console": "off",
-  "import/extensions": "never",
-  "eol-last": 0,
-  "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }]
-};
+  "import/extensions": 0
+}
