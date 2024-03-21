@@ -31,4 +31,4 @@ const playGameCalc = () => {
   playGame(rule, getQuestionAndAnswer);
 };
 
-export default playGameCalc();
+export default playGameCalc;
