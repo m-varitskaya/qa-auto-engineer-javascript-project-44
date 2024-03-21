@@ -22,7 +22,7 @@ const getQuestionAndAnswer = () => {
   const operand1 = getRandomNumber();
   const operand2 = getRandomNumber();
   const operation = punctationMark[getRandomNumber(0, punctationMark.length)];
-  const question = `${operand1}${operation}${operand2}`;
+  const question = `${operand1} ${operation} ${operand2}`;
   const answer = getCorrectAnswer(operand1, operand2, operation);
   return [question, String(answer)];
 };
