@@ -15,3 +15,6 @@ brain-even: # игра "проверка на четность"
 
 brain-calc: # игра калькулятор
 	node bin/brain-calc.js
+
+brain-gcd: # игра с нахождением нод
+	node bin/brain-gcd.js	
