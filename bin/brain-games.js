@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 import showGreeting from '../src/cli.js';
 
-console.log('Welcome to the Brain Games!');
+function startG() {
+    console.log('Welcome to the Brain Games!');
 showGreeting();
+} 
+
+export default startG;

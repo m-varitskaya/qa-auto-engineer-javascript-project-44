@@ -9,3 +9,6 @@ publish: # аргумент чтобы не засорять общее хран
 
 lint:
 	npx eslint
+
+brain-even: # игра "проверка на четность"
+	node bin/brain-even.js
