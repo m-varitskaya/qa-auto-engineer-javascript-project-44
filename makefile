@@ -21,3 +21,6 @@ brain-gcd: # игра с нахождением нод
 
 brain-progression: #игра с пропущенным числом в последовательности
 	node bin/brain-progression.js	
+
+brain-prime: #игра простое ли число
+	node bin/brain-prime.js

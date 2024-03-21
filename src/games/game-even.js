@@ -11,8 +11,8 @@ const getQuestionAndAnswer = () => {
   return [question, answer];
 };
 
-const initGameEven = () => {
+const playGameEven = () => {
   playGame(rule, getQuestionAndAnswer);
 };
 
-export default initGameEven;
+export default playGameEven;
