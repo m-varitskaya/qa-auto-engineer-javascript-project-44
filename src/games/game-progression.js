@@ -6,14 +6,19 @@ const maxDiffProgression = 10;
 
 const rule = 'What number is missing in the progression?';
 
-const getQuestionAndAnswer = () => {
+const getProgression = () => {
   const firstNum = getRandomNumber();
-  const diffProgression = getRandomNumber(1, maxDiffProgression);
-  const skip = getRandomNumber(0, lengthProgression);
   const progression = [];
+  const diffProgression = getRandomNumber(1, maxDiffProgression);
   for (let i = 0; i < lengthProgression; i += 1) {
     progression.push(firstNum + diffProgression * i);
   }
+  return progression;
+};
+
+const getQuestionAndAnswer = () => {
+  const skip = getRandomNumber(0, lengthProgression);
+  const progression = getProgression();
   const answer = progression[skip];
   progression[skip] = '..';
   const question = progression.join(' ');
